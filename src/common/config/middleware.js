@@ -19,7 +19,7 @@ module.exports = [
     enable: isDev,
     options: {
       root: path.join(think.ROOT_PATH, 'www'),
-      publicPath: /^\/(static|favicon\.ico)/
+      publicPath: /^\/(static|favicon\.ico|vue-design)/
     }
   },
   {
